@@ -1,0 +1,24 @@
+gnn:
+  layers: [16, 32, 16]  # Configurable GNN architecture
+  learning_rate: 0.01
+  epochs: 10
+  feature_dim: 16
+visualization:
+  node_size: 12
+  edge_color: "#808080"
+  node_colors:
+    high_cvss: "#FF0000"  # CVSS >7
+    medium_cvss: "#FFFF00"  # CVSS >4
+    low_cvss: "#00FF00"    # CVSS ≤4
+    threat: "#800080"      # Active threat
+  layout:
+    type: "spring"
+    scale: 10
+    seed: 42
+cve:
+  source: "nvd"
+  api_url: "https://services.nvd.nist.gov/rest/json/cves/2.0"
+  max_cves: 5
+  rate_limit: 1  # Seconds between requests
+threat_simulation:
+  interval: 4  # Seconds between threat updates
