@@ -1,6 +1,4 @@
-![cyber3d network details](https://github.com/user-attachments/assets/58652a83-d6f6-4db0-822d-81110850cfd8)
-![cyber3d graph](https://github.com/user-attachments/assets/50d3dad3-fb67-43d3-9e46-b1f8bf125886)
-![cyber3d graph](https://github.com/user-attachments/assets/1e8bd83e-bfd5-4faf-8214-0df7c1f53bb2)
+
 Cyber3DMap-Streamlit
 
 A penetration testing tool for visualizing network attack surfaces in a GNS3-like 3D map. Built with Streamlit, NetworkX, Plotly, and PyTorch Geometric, it processes Nmap XML scans to map vulnerabilities, predict attack paths, and simulate real-time threats.
