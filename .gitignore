@@ -1,0 +1,8 @@
+.env
+config.json.enc
+config.key
+neuraltrace_report.jsonl
+*.log
+__pycache__/
+*.pyc
+/data/
